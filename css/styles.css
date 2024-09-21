@@ -65,15 +65,17 @@ font-family: "Raleway", sans-serif;
 
 .button-hero {
     background-color: #4d5ae5;
-}
-.button-hero:hover,
-.button-hero:focus {
-    background-color: #404bbf;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #fff;
+        cursor: pointer;
+}
+.button-hero:hover,
+.button-hero:focus {
+    background-color: #404bbf;
+   
 }
 
 
@@ -136,10 +138,12 @@ font-weight: 500;
         color: #2e2f42;
         text-transform: capitalize;
 }
-.portfolio-item {
+.portfolio-item,
+.portfolio-item-two {
 background: #fff;
 }
-.portfolio-link {
+.portfolio-link,
+.portfolio-link-two {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -147,7 +151,8 @@ background: #fff;
         color: #2e2f42;
         text-transform: capitalize;
 }
-.portfolio-link-text{
+.portfolio-link-text,
+.portfolio-link-text-two {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
