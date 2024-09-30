@@ -99,7 +99,9 @@ font-weight: 500;
 }
 /* =====================/advantages=====================  */
 /* ===================== Our Team ============================ */
-
+.ourteam-page {
+   background-color:#F4F4FD ; 
+}
 .ourteam-text {
     
         font-weight: 700;
@@ -108,6 +110,10 @@ font-weight: 500;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
+}
+.ourteam-item {
+    background-color: #FFFFFF;
 }
 .ourteam-link {
     font-weight: 500;
@@ -152,24 +158,7 @@ background: #fff;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.portfolio-row-two {
-    background-color: #F4F4FD
-}
-.portfolio-item-two {
-    background: #fff;
-}
-.portfolio-link-two {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    text-transform: capitalize;
-}
-.portfolio-link-text-two {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
+
 
 /* ==================== /  Our portfolio ==================== */
 /* ===================== footer =========================  */
